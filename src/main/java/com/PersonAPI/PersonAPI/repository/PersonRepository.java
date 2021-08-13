@@ -1,6 +1,6 @@
-package com.PersonsAPI.PersonsAPI.repository;
+package com.PersonAPI.PersonAPI.repository;
 
-import com.PersonsAPI.PersonsAPI.models.PersonModel;
+import com.PersonAPI.PersonAPI.models.PersonModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PersonRepository extends JpaRepository<PersonModel,Long> {

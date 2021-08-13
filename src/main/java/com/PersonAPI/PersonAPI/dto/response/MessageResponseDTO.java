@@ -1,4 +1,4 @@
-package com.PersonsAPI.PersonsAPI.dto;
+package com.PersonAPI.PersonAPI.dto.response;
 
 import lombok.Builder;
 import lombok.Data;

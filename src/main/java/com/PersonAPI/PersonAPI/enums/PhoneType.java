@@ -1,4 +1,4 @@
-package com.PersonsAPI.PersonsAPI.enums;
+package com.PersonAPI.PersonAPI.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

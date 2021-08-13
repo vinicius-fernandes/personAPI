@@ -1,13 +1,13 @@
-package com.PersonsAPI.PersonsAPI;
+package com.PersonAPI.PersonAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PersonsApiApplication {
+public class PersonApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PersonsApiApplication.class, args);
+		SpringApplication.run(PersonApiApplication.class, args);
 	}
 
 }

@@ -1,6 +1,6 @@
-package com.PersonsAPI.PersonsAPI.models;
+package com.PersonAPI.PersonAPI.models;
 
-import com.PersonsAPI.PersonsAPI.enums.PhoneType;
+import com.PersonAPI.PersonAPI.enums.PhoneType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,7 +15,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class PhoneModel {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)

@@ -1,4 +1,4 @@
-package com.PersonsAPI.PersonsAPI.models;
+package com.PersonAPI.PersonAPI.models;
 
 import lombok.*;
 
@@ -12,8 +12,9 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PersonModel {
+
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = false)
